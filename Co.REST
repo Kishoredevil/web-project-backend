@@ -1,0 +1,74 @@
+###
+GET http://localhost:5000/api/institution-details
+
+###
+GET http://localhost:5000/api/secret-questions
+
+
+###
+POST http://localhost:5000/api/register
+Content-Type: application/json
+
+{
+"UserName": "Moabcdefghae55daaaaaaana@1",
+"Email": "smohanakssriyyaaaaaaagggrradsddddhna@yahoo.com",
+"Password": "1Mohanakrishnan1234@",
+"Institution": 234561,
+"Question1": 1,
+"Answer1": "Answer",
+"Question2": 3,
+"Answer2": "Answer"
+}
+
+###
+post http://localhost:5000/api/login
+Content-Type: application/json
+
+{
+"UserName": "Moabcdefghae55daaaaaaana@1",
+"Password": "1Mohanakrishnan1234@"
+}
+
+
+###
+post http://localhost:5000/api/fotp
+Content-Type: application/json
+
+{
+    "email": "smohanakriyyaaaaaashna@yahoo.com"
+}
+
+###
+post http://localhost:5000/api/forP
+Content-Type: application/json
+
+{
+    "email": "smohanakriyyaaaaaashna@gmyyuaaayiiil.com",
+    "answer1": "Answer",
+    "answer2": "Answer"
+}
+
+###
+GET http://localhost:5000/api/templates
+Content-Type: application/json
+
+{
+    "authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjY2JlIiwic3ViIjoyMzQ1NjEsImF1ZCI6MTE3LCJleHAiOjE3MDA1OTk0NzUsImlhdCI6MTcwMDU3Nzg3NSwic2NvcGUiOiJmdWxsIn0.iJagxOuPxunM9kIoZ2gy8M09Tq4NsHpcSdiEloTlsAQ"
+}
+
+
+
+###
+POST http://localhost:5000/api/store-template
+Content-Type: application/json
+
+{
+      "NAME":"Donbos",
+      "INSTITUTION_ID":"234561",
+      "FILE_PATH":"local",
+      "FILE_NAME":"selestial",
+      "CREATED_BY":"vs",
+      "MODIFIED_BY":"vs",
+      "ACTIVE":"yes",
+      "REMARKS":" "
+}
